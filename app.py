@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Home page. Index link for all assignments
 @app.route('/')
 def hello():
-    return redirect(url_for('static', filename='index.html'))
+    return redirect(url_for('static', filename='Index.html'))
 
 # # Assignment 1: Chapter two section 2.4-2.8
 # @app.route('/assignment1')
