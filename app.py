@@ -30,10 +30,10 @@ def hello():
 # def assignment4():
 #     return redirect(url_for('static', filename='assignment4.html'))
 
-# # Assignment 5: Exercise 5
-# @app.route('/assignment5')
-# def assignment5():
-#     return redirect(url_for('static', filename='assignment5.html'))
+# # radioclick: Exercise 5
+# @app.route('/radioclick')
+# def radioclick():
+#     return redirect(url_for('static', filename='radioclick.html'))
 
 
 if __name__ == '__main__':
