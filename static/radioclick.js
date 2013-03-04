@@ -12,16 +12,19 @@ function planeChoice (plane) {
 
   switch (plane) {
     case 152: 
-      alert("A small two-place airplane for flight training");
+      alert("YOUR FAVORITE COLOR IS RED");
       break;
     case 172: 
-      alert("The smaller of two four-place airplanes");
+      alert("YOUR FAVORITE COLOR IS BLUE");
       break; 
     case 182:
-      alert("The larger of two four-place airplanes");
+      alert("YOUR FAVORITE COLOR IS GREEN");
       break;    
-    case 210:
-      alert("A six-place high-performance airplane");
+    case 212:
+      alert("YOUR FAVORITE COLOR IS YELLOW");
+      break;
+    case 222:
+      alert("YOUR FAVORITE COLOR IS ORANGE");
       break; 
     default:
       alert("Error in JavaScript function planeChoice");
