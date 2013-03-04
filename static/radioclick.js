@@ -6,11 +6,11 @@
 
 // The event handler for a radio button collection
 
-function planeChoice (plane) {
+function FavoriteColor (Color) {
 
 // Produce an alert message about the chosen airplane
 
-  switch (plane) {
+  switch (Color) {
     case 152: 
       alert("YOUR FAVORITE COLOR IS RED");
       break;
@@ -20,7 +20,7 @@ function planeChoice (plane) {
     case 182:
       alert("YOUR FAVORITE COLOR IS GREEN");
       break;    
-    case 212:
+    case 202:
       alert("YOUR FAVORITE COLOR IS YELLOW");
       break;
     case 222:
