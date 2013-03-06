@@ -25,6 +25,11 @@ def hello():
 # def assignment3():
 #     return redirect(url_for('static', filename='assignment3.html'))
 
+# # chp4voc: Exercise 4
+# @app.route('/chp4voc')
+# def chp4voc.html():
+#     return redirect(url_for('static', filename='chp4voc.html'))
+
 # # Assignment 4: Exercise 4.2
 # @app.route('/assignment4')
 # def assignment4():
