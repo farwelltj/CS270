@@ -1,12 +1,12 @@
 h1.chapter-header {
-    padding: 3%;
+    padding: 23%;
     padding-left: 23%;
     color: white;
-    background-color: red;
+    background-color: white;
     text-align: center;
     border-bottom: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-color: blue;
+    border-bottom-style: outset;
+    border-bottom-color: white;
     line-height: 2em;
     text-transform: uppercase;
 }
