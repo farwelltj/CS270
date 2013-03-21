@@ -8,6 +8,10 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return redirect(url_for('static', filename='Index.html'))
+# # Local: 
+# @app.route('/Local')
+# def Local():
+#     return redirect(url_for('static', filename='local'))
 
 # # Assignment 1: Chapter two section 2.1-2.8
 # @app.route('/assignment')
