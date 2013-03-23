@@ -1,14 +1,44 @@
 <DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title> Ture's Web Page </title>
+		<title>Game Jam</title>
 		<meta charset = "utf-8" />
-		<link rel="stylesheet" type="text/css" href="/static/assignment3.css" />
+		<link rel="stylesheet" type="text/css" href="/static/local.css" />
     	<script type = "text/javascript"  src = "local.js" >
     	</script>
     </head>
     <body>
-<h1 class="chapter-header">Welcome</h1>
+<h1 class="chapter-header">GAME FEED ME!!!</h1>
+<h2 class="chapter-header2">Objectives</h2>
+	<p><ul>
+		<li>Collect enough food to feed the giant</li>
+		<li>Don't fall off the plates!</li>
+		<li>Don't fall behind the screen, stay infront of the bottom of the screen.
+		You have three lives, don't die!</li>
+	</ul></p>
+<h2 class="chapter-header2">Details</h2>
+	<p>
+		5 sec screen delay at beginning.
+		Get 3/4 way up before 5 secs, then screen starts to move.
+		Food metor: -bread(10) -tomato(20) *food meter increses by point value of food. The higher the metor the happier -ham(30) *food metor max = 100pts -turkey(30) *each level will have at least 100 points possible. -lettuce(20) -chicken(50)
+
+		If you die, restart at bottom and metor remians at the spot where you died. (Retain points until 3 lives up)
+
+		When giant is reached, move onto next level if and only if food metor is 100% full.
+
+		If giant is reached and food metor isn't full then you lose and are eaten by giant.
+	</p>
+<h2 class="chapter-header2">Play by Play</h2>
+	<p>
+		Display splash screen, press enter to play.
+		Display rules, press key to move on.
+		Player starts at the bottom.
+		Jump to first row of plates(grab food if applicable), food meter increased.
+		Advance to different plates grabbing food as you go, increasing food meter.
+		If the bottom screen touches you, you're dead.
+		If you get to the top without a full food meter you also die.
+	</p>
+
 
 
 
