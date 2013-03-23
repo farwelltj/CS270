@@ -26,7 +26,7 @@ h1 {
 }
 
 h2.chapter-header2 {
-    color: b/**/lack;
+    color: black;
     background-color: white;
     text-align: center;
     border-top: .5em;
@@ -37,6 +37,20 @@ h2.chapter-header2 {
     border-bottom-color: green;
     line-height: 2em;
     text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Times New Roman";
+    font-size:23px;
+}
+
+h3.chapter-header3 {
+    padding-left: 15%;
+    padding-right: 15%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 2em;
 }
 
 h2 {
