@@ -1,8 +1,8 @@
 h1.chapter-header {
     padding: 3%;
     padding-left: 3%;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     text-align: center;
     border-top: 0.5em;
     border-top-style: solid;
@@ -10,6 +10,12 @@ h1.chapter-header {
     border-bottom: 0.5em;
     border-bottom-style: solid;
     border-bottom-color: green;
+    border-right: 0.5em;
+    border-right-style: solid;
+    border-right-color: red;
+    border-left: 0.5em;
+    border-left-style: solid;
+    border-left-color: yellow;
     line-height: 2em;
     text-transform: uppercase;
 }
@@ -23,10 +29,10 @@ h2.chapter-header2 {
     color: b/**/lack;
     background-color: white;
     text-align: center;
-    border-top: 0.5em;
+    border-top: .5em;
     border-top-style: solid;
     border-top-color: blue;
-    border-bottom: 0.5em;
+    border-bottom: .5em;
     border-bottom-style: solid;
     border-bottom-color: green;
     line-height: 2em;
