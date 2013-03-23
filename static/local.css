@@ -1,34 +1,54 @@
 h1.chapter-header {
     padding: 3%;
     padding-left: 3%;
-    color: Black;
-    background-color: Green;
+    color: black;
+    background-color: white;
     text-align: center;
+    border-top: 0.5em;
+    border-top-style: solid;
+    border-top-color: blue;
     border-bottom: 0.5em;
-    border-bottom-style: outset;
-    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: green;
     line-height: 2em;
     text-transform: uppercase;
-    
 }
 
 h1 {
-    font-family: Arial;
+    font-family: "Times New Roman";
     font-size:53px;
 }
 
 h2.chapter-header2 {
-   
-    color: Black;
+    color: b/**/lack;
     background-color: white;
     text-align: center;
+    border-top: 0.5em;
+    border-top-style: solid;
+    border-top-color: blue;
     border-bottom: 0.5em;
-    border-bottom-style: outset;
-    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: green;
     line-height: 2em;
     text-transform: uppercase;
 }
 
 h2 {
-    font-family: Pokemon;
+    font-family: "Times New Roman";
+    font-size:23px;
 }
+
+ul.a { 
+    list-style-type: square;
+} 
+
+a:link {color:#FF0000;}    /* unvisited link */
+a:visited {color:#00FF00;} /* visited link */
+a:hover {color:#FF00FF;}   /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+}
+
+
+
+
