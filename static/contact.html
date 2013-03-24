@@ -10,11 +10,10 @@
 			<nav>
 				<ul>
 					<li><a href ="layout.html" target="Home">Home</a></li>
-					<li><a herf ="Objective.html" target="Objective">Objective</a></li>
+					<li><a href ="Objective.html" target="objective">Objective</a></li>
 					<li><a href ="description.html" target="Description">Description</a></li>
-					<li><a herf ="design.html" target="Design">Design</a></li>
-					<li><a herf ="contact.html" target="Contact">Contact</a></li>
-				</ul>
+					<li><a href ="design.html" target="Design">Design</a></li>
+					<li><a href ="contact.html" target="Contact">Contact</a></li>
 				</ul>
 			</nav>
 			<section>
@@ -23,11 +22,41 @@
 				</h1>
 			</section>
 			<section>
-				<h2 class="text">					
-					<li>Collect enough food to feed the giant</li>
-					<li>Don't fall off the plates!</li>
-					<li>Don't fall behind the screen, stay infront of the bottom of the screen.You have three lives, don't die!</li>
-				</h2>
+				<p><u>Boss Lady</u></p>
+				Lindsey Winters
+				<p><u>Maind Designer</u></p>
+				Rafeal
+				<p><u>Desinger</u></p>
+				Jared Luren an Josh Reynolds
+				<p><u>Web Presentation</u></p>
+				Ture Farwell	
+				<p><u>Special Thanks</u></p>
+				Marcus Darden and James 
+			</section>
+			<section>
+				<?php
+if (isset($_REQUEST['email']))
+//if "email" is filled out, send email
+  {
+  //send email
+  $email = $_REQUEST['email'] ;
+  $subject = $_REQUEST['subject'] ;
+  $message = $_REQUEST['message'] ;
+  mail("someone@example.com", $subject,
+  $message, "From:" . $email);
+  echo "Thank you for using our mail form";
+  }
+else
+//if "email" is not filled out, display the form
+  {
+  echo <form method='post' action='mailform.php'>
+  Email: <input name='email' type='text'><br>
+  Subject: <input name='subject' type='text'><br>
+  Message:<br>
+  <textarea name='message' rows='15' cols='40'>
+  </textarea><br>
+  <input type='submit'>
+  </form>
 			</section>
 		</div>
 	</body>
