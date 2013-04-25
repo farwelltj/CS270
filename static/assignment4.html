@@ -29,6 +29,7 @@
  	<p>With - Extends the scope chain for a statement</p>
 </body>
 	<body>
+		<h4> 4.1 </h4>
 		<script type="text/javascript">
 		var number, square, cube;
 		document.write("Number, Square, Cube <br /><br />");
@@ -43,10 +44,49 @@
 
 
 <body>
-
+	<h4>4.2</h4>
 	<script type="text/javascript">
-	<!--
  
+		var var1 = 0;
+		var var2 = 1;
+		var var3;
+ 
+		document.write(var1+"<br />");
+		document.write(var2+"<br />");
+ 
+		for(var i=3; i <= 20;i++)
+		{
+			var3 = var1 + var2;
+			var1 = var2;
+			var2 = var3;
+ 
+			document.write(var3+"<br />");
+		}
+	</script>
+ 
+</body>
+<body>
+	<h4>4.3</h4>
+	<script type="text/javascript">
+
+		var1 = window.prompt("Choose Number","");
+		var2 = window.prompt("Choose Number","");
+		var3 = window.prompt("Choose Number","");
+
+		value1 = praseFloat(var1);
+		value2 = praseFloat(var2);
+		value3 = praseFloat(var3);
+
+		MaxVal = Math.max(value1, value2 ,value3);
+		document.write("The Largest Number is: " + MaxVal)
+	</script>
+
+</body>
+
+<body>
+	<h4>4.4</h4>
+	<script type="text/javascript">
+
 		var var1 = 0;
 		var var2 = 1;
 		var var3;
@@ -64,27 +104,13 @@
  
 			document.write(var3+"<br />");
 		}
- 
-	// -->
 	</script>
- 
-</body>
-<body>
 
+<body>
+	<h4>4.5</h4>
 	<script type="text/javascript">
 
-	var 1 = Math.max(0,150,30,20,38);
-
-	="button" onclick="disp_prompt()" value="Display a prompt box">
-
-	document.write(var1+)
-
-
-
-
-
-
+	
 
 </body>
-
 </html>
