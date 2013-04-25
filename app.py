@@ -49,6 +49,12 @@ def hello():
 # def radioclick():
 #     return redirect(url_for('static', filename='radioclick.html'))
 
+# # Assignment6: Exercise 6
+# @app.route('/Assignment6)
+# def Assignment6():
+#     return redirect(url_for('static', filename='assignment6.html'))
+
+
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
